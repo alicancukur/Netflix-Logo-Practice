@@ -1,24 +1,53 @@
-# Compiled class file
-*.class
+body {
+    background-color: #ccc;
+}
 
-# Log file
-*.log
+.kutu {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
 
-# BlueJ files
-*.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+.kutuz {
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border: solid black 5px;
+}
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+*{
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    color: aqua;
+    background-color: black;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+.navbar .menu ul {
+    display: flex;
+    color: blueviolet;
+}
+
+.navbar ul li {
+    margin-left: 5px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.navbar ul li:hover {
+    background-color: blanchedalmond;
+    color: blueviolet;
+}   
+
+
+
